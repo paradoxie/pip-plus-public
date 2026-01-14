@@ -1,0 +1,106 @@
+{
+    "extName": {
+        "message": "PiP+ - 字幕弹幕画中画",
+        "description": "Extension name"
+    },
+    "extDesc": {
+        "message": "支持 Netflix 字幕和 Bilibili 弹幕的画中画扩展。开源免费。",
+        "description": "Extension description"
+    },
+    "actionTitle": {
+        "message": "开启画中画",
+        "description": "Action tooltip"
+    },
+    "cmdToggle": {
+        "message": "切换画中画模式",
+        "description": "Command description"
+    },
+    "popupTitle": {
+        "message": "PiP+",
+        "description": "Popup title"
+    },
+    "btnTogglePiP": {
+        "message": "开启画中画",
+        "description": "Main toggle button"
+    },
+    "btnNoVideo": {
+        "message": "未检测到视频",
+        "description": "No video detected button"
+    },
+    "btnPiPActive": {
+        "message": "画中画播放中",
+        "description": "PiP is currently active"
+    },
+    "featuresHeader": {
+        "message": "功能特性",
+        "description": "Features section header"
+    },
+    "featSubtitles": {
+        "message": "字幕保留 (Netflix/YouTube)",
+        "description": "Feature list"
+    },
+    "featDanmaku": {
+        "message": "弹幕同步 (Bilibili)",
+        "description": "Feature list"
+    },
+    "featControls": {
+        "message": "自定义控件",
+        "description": "Feature list"
+    },
+    "footerSupport": {
+        "message": "支持 YouTube · Netflix · Bilibili",
+        "description": "Footer text"
+    },
+    "shortcutsHeader": {
+        "message": "快捷键",
+        "description": "Shortcuts section header"
+    },
+    "shortcutPlayPause": {
+        "message": "暂停/播放",
+        "description": "Shortcut description"
+    },
+    "shortcutSeekBack": {
+        "message": "快退",
+        "description": "Shortcut description"
+    },
+    "shortcutSeekFwd": {
+        "message": "快进",
+        "description": "Shortcut description"
+    },
+    "shortcutVolUp": {
+        "message": "音量+",
+        "description": "Shortcut description"
+    },
+    "shortcutVolDown": {
+        "message": "音量-",
+        "description": "Shortcut description"
+    },
+    "shortcutMute": {
+        "message": "静音",
+        "description": "Shortcut description"
+    },
+    "msgNoVideo": {
+        "message": "未找到视频",
+        "description": "No video error"
+    },
+    "msgPipOpened": {
+        "message": "画中画已开启",
+        "description": "PiP opened notification"
+    },
+    "msgPipFailed": {
+        "message": "无法打开画中画",
+        "description": "PiP error"
+    },
+    "msgPipClosed": {
+        "message": "画中画已关闭",
+        "description": "PiP closed notification"
+    },
+    "msgPipNotSupported": {
+        "message": "您的浏览器不支持画中画",
+        "description": "Browser not supported"
+    },
+    "msgPipBasicMode": {
+        "message": "画中画已开启 (基础模式)",
+        "description": "Basic PiP fallback"
+    }
+}

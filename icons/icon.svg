@@ -1,0 +1,77 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 主渐变：深蓝到紫色 -->
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0A84FF"/>
+      <stop offset="100%" stop-color="#5E5CE6"/>
+    </linearGradient>
+    
+    <!-- 强调色渐变：橙红 -->
+    <linearGradient id="pop-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF9500"/>
+      <stop offset="100%" stop-color="#FF3B30"/>
+    </linearGradient>
+
+    <!-- 投影 -->
+    <filter id="soft-shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="4" result="offsetblur"/>
+      <feFlood flood-color="rgba(0,0,0,0.3)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- 强烈的发光 -->
+    <filter id="glow-shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feFlood flood-color="rgba(255, 59, 48, 0.5)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- 背景 Squircle -->
+  <path d="M512 115C512 51.4873 460.513 0 397 0H115C51.4873 0 0 51.4873 0 115V397C0 460.513 51.4873 512 115 512H397C460.513 512 512 460.513 512 397V115Z" fill="url(#bg-gradient)"/>
+  
+  <!-- 顶部高光 -->
+  <path d="M512 115C512 51.4873 460.513 0 397 0H115C51.4873 0 0 51.4873 0 115V200C150 180 362 180 512 200V115Z" fill="white" fill-opacity="0.15"/>
+
+  <!-- 主屏幕 -->
+  <g filter="url(#soft-shadow)">
+    <rect x="50" y="100" width="280" height="175" rx="14" fill="white" fill-opacity="0.2" stroke="white" stroke-opacity="0.3" stroke-width="1.5"/>
+    <!-- 内容线条 -->
+    <rect x="75" y="135" width="140" height="8" rx="4" fill="white" fill-opacity="0.4"/>
+    <rect x="75" y="155" width="100" height="8" rx="4" fill="white" fill-opacity="0.3"/>
+  </g>
+
+  <!-- PiP 悬浮窗口 -->
+  <g filter="url(#soft-shadow)">
+    <rect x="210" y="210" width="180" height="120" rx="12" fill="white" stroke="white" stroke-width="2"/>
+    
+    <!-- 播放按钮 -->
+    <circle cx="300" cy="260" r="24" fill="#0A84FF"/>
+    <path d="M310 260L292 250V270L310 260Z" fill="white"/>
+
+    <!-- 字幕条 -->
+    <rect x="240" y="295" width="120" height="16" rx="6" fill="#0A84FF" fill-opacity="0.15"/>
+    <rect x="250" y="300" width="90" height="6" rx="3" fill="#0A84FF"/>
+  </g>
+
+  <!-- Plus (+) Badge - New Highlight Element -->
+  <g filter="url(#glow-shadow)">
+    <!-- 圆形徽章背景 -->
+    <circle cx="410" cy="110" r="50" fill="url(#pop-gradient)" stroke="white" stroke-width="4"/>
+    <!-- 加号符号 -->
+    <path d="M410 85 V135 M385 110 H435" stroke="white" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- 边缘高光 -->
+  <path d="M511 115C511 51.7873 459.713 0.5 396.5 0.5H115.5C52.2873 0.5 1 51.7873 1 115V397C1 460.213 52.2873 511.5 115.5 511.5H396.5C459.713 511.5 511 460.213 511 397V115Z" stroke="white" stroke-opacity="0.2" stroke-width="1" fill="none"/>
+</svg>

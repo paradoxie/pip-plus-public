@@ -1,0 +1,106 @@
+{
+    "extName": {
+        "message": "PiP+ - Subtitles & Danmaku",
+        "description": "Extension name"
+    },
+    "extDesc": {
+        "message": "Picture-in-Picture with Netflix subtitles and Bilibili danmaku support. Open source.",
+        "description": "Extension description"
+    },
+    "actionTitle": {
+        "message": "Open in Picture-in-Picture",
+        "description": "Action tooltip"
+    },
+    "cmdToggle": {
+        "message": "Toggle Picture-in-Picture mode",
+        "description": "Command description"
+    },
+    "popupTitle": {
+        "message": "PiP+",
+        "description": "Popup title"
+    },
+    "btnTogglePiP": {
+        "message": "Open PiP",
+        "description": "Main toggle button"
+    },
+    "btnNoVideo": {
+        "message": "No Video Detected",
+        "description": "No video detected button"
+    },
+    "btnPiPActive": {
+        "message": "PiP Playing",
+        "description": "PiP is currently active"
+    },
+    "featuresHeader": {
+        "message": "Features",
+        "description": "Features section header"
+    },
+    "featSubtitles": {
+        "message": "Subtitles (Netflix/YouTube)",
+        "description": "Feature list"
+    },
+    "featDanmaku": {
+        "message": "Danmaku Sync (Bilibili)",
+        "description": "Feature list"
+    },
+    "featControls": {
+        "message": "Custom Controls",
+        "description": "Feature list"
+    },
+    "footerSupport": {
+        "message": "Supports YouTube · Netflix · Bilibili",
+        "description": "Footer text"
+    },
+    "shortcutsHeader": {
+        "message": "Shortcuts",
+        "description": "Shortcuts section header"
+    },
+    "shortcutPlayPause": {
+        "message": "Play/Pause",
+        "description": "Shortcut description"
+    },
+    "shortcutSeekBack": {
+        "message": "Rewind",
+        "description": "Shortcut description"
+    },
+    "shortcutSeekFwd": {
+        "message": "Forward",
+        "description": "Shortcut description"
+    },
+    "shortcutVolUp": {
+        "message": "Vol+",
+        "description": "Shortcut description"
+    },
+    "shortcutVolDown": {
+        "message": "Vol-",
+        "description": "Shortcut description"
+    },
+    "shortcutMute": {
+        "message": "Mute",
+        "description": "Shortcut description"
+    },
+    "msgNoVideo": {
+        "message": "No video found",
+        "description": "No video error"
+    },
+    "msgPipOpened": {
+        "message": "PiP Enabled",
+        "description": "PiP opened notification"
+    },
+    "msgPipFailed": {
+        "message": "Failed to open PiP",
+        "description": "PiP error"
+    },
+    "msgPipClosed": {
+        "message": "PiP Closed",
+        "description": "PiP closed notification"
+    },
+    "msgPipNotSupported": {
+        "message": "Picture-in-Picture not supported",
+        "description": "Browser not supported"
+    },
+    "msgPipBasicMode": {
+        "message": "PiP Enabled (Basic Mode)",
+        "description": "Basic PiP fallback"
+    }
+}

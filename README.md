@@ -2,7 +2,7 @@
 
 > 🎬 The only PiP extension that keeps Netflix subtitles and Bilibili danmaku
 
-🌐 **Website:** [pipext.app](https://pipext.app) | 💎 **Pro Version:** [Get Pro](https://pipext.app)
+🌐 **Website:** [pipext.app](https://pipext.app)
 
 [English](#features) | [中文](#功能特性)
 
